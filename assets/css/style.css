@@ -6,7 +6,7 @@
 }
 :root{
     --bg-color-main:#BD0000;
-    --bg-color-ins: #fff;
+    --bg-color-white-ins: #fff;
     --bg-color-black-ins:#000;
 }
 #header{
@@ -58,7 +58,7 @@
 }
 .search-wp-none{
     position: absolute;
-    background-color: var(--bg-color-ins);
+    background-color: var(--bg-color-white-ins);
     height: 35px;
     left: 50%;
     transform: translateX(-50%);
@@ -111,7 +111,7 @@
 }
 .reg-log{
     list-style-type: none;
-    background-color: var(--bg-color-ins);
+    background-color: var(--bg-color-white-ins);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     width: 165px;
     position: absolute;
@@ -141,7 +141,7 @@
     border-radius: 5px;
 }
 .reg-log>li:hover a{
-    color: var(--bg-color-ins);
+    color: var(--bg-color-white-ins);
 }
 .reg-log>li:hover{
     background-color: var(--bg-color-black-ins);
@@ -166,7 +166,7 @@
 
 .category{
     opacity: 0;
-    background-color: var(--bg-color-ins);
+    background-color: var(--bg-color-white-ins);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     position: absolute;
     left: 0;
@@ -188,17 +188,17 @@
     padding: 15px;
     display: flex;
     background-color: var(--bg-color-main);
-    color: var(--bg-color-ins);
+    color: var(--bg-color-white-ins);
     margin: 10px 0px;
 }
 .reg-log-none a{
-    background-color: var(--bg-color-ins);
+    background-color: var(--bg-color-white-ins);
     color: var(--bg-color-black-ins);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .reg-log-none li:hover a{
     background-color: var(--bg-color-black-ins);
-    color: var(--bg-color-ins);
+    color: var(--bg-color-white-ins);
 }
 .reg-log-none{
     display: none;
@@ -213,31 +213,31 @@
 .category h5{
     padding: 15px;
     background-color: var(--bg-color-main);
-    color: var(--bg-color-ins);
+    color: var(--bg-color-white-ins);
 }
 .list-dm{
-    background-color: var(--bg-color-ins);
+    background-color: var(--bg-color-white-ins);
 }
 .list-dm,.list-item-pk{
     list-style-type: none;
 }
 .list-dm>li{
-    background-color: var(--bg-color-ins);
+    background-color: var(--bg-color-white-ins);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin: 10px 0px;
 }
 .list-dm li:hover a{
-    color: var(--bg-color-ins);
+    color: var(--bg-color-white-ins);
 }
 .list-dm li:hover{
     background-color: var(--bg-color-black-ins);
-    color: var(--bg-color-ins);
+    color: var(--bg-color-white-ins);
 }
 .list-item-pk li:hover a{
     color: var(--bg-color-black-ins);
 }
 .list-item-pk li:hover{
-    background-color: var(--bg-color-ins);
+    background-color: var(--bg-color-white-ins);
 }
 .list-item-pk li{
     margin: 10px 0px;
