@@ -1,5 +1,4 @@
 <?php
-// include "view/user/header.php";
 require 'view/user/header.php';
 if (isset($_GET['act']) && ($_GET['act'] != '')){
     $act = $_GET['act'];
