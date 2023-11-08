@@ -96,6 +96,4 @@
             <input class="input-search" type="search" placeholder="Bạn cần tìm gì...">
             <button class="btn-search"><i class="fa fa-search"></i></button>
         </form>
-        <div class="banner container">
-            <a href=""><img src="assets/img/banner.png" alt=""></a>
-        </div>
+        

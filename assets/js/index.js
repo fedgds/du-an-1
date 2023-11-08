@@ -24,4 +24,29 @@ var showSearch=document.querySelector('.search-wp-none');
 btnSearch.addEventListener('click',()=>{
     showSearch.classList.toggle('show-search');
 });
+// slide banner
+var images = [];
+var imageNames = ["banner1.png", "banner2.png", "banner3.png"];
+for (var i = 0; i < 3; i++) {
+    images[i] = new Image();
+    images[i].src = 'assets/img/' + imageNames[i];
+}
+var index = 0;
+function prev() {
+    index--;
+    if (index < 0) {
+        index = 2;
+    }
 
+    let banner = document.getElementById('banner');
+    banner.src = images[index].src;
+}
+function next() {
+    index++;
+    if (index >= 3)
+        index = 0;
+
+    let banner = document.getElementById('banner');
+    banner.src = images[index].src;
+}
+setInterval(next, 5000);

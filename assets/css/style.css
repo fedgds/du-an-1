@@ -103,12 +103,50 @@
     margin: 0px 0px 0px 20px;
     align-items: center;
 }
-.banner{
-    max-width: 100%;
-}
-.banner img{
+/* banner */
+main .slide-banner{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
+main .slide-banner img{
+    width: 1480px;
+    height: 400px;
+} 
+.pre, .next{
+    cursor:pointer;
+    position:absolute;
+    top:45%;
+    width:20px;
+    padding:16px;
+    color:rgb(109, 109, 109);
+    opacity: 0.6;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.6s ease-in-out;
+    border-radius:0 3px 3px 0;
+    border:none;
+}
+
+.pre:hover, .next:hover{
+    background-color:rgba(0,0,0,0.8);
+    color: #fff;
+}
+
+.next{
+    right:4px;
+    border-radius:3px 0 0 3px;
+    color: black;
+}
+
+.pre{
+    left:4px;
+    border-radius:0 3px 3px 0;
+    color: black;
+}  
+/* end banner */
 .reg-log{
     list-style-type: none;
     background-color: var(--bg-color-ins);
