@@ -4,9 +4,12 @@ require 'view/user/header.php';
 if (isset($_GET['act']) && ($_GET['act'] != '')){
     $act = $_GET['act'];
     switch ($act) {
-        case "sanpham" :
-
-        break;
+        case "dangnhap" :
+            require 'view/user/dangnhap.php';
+            break;
+        case "dangky" :
+            require 'view/user/dangky.php';
+            break;
     }
 } else{
     require 'view/user/home.php';
