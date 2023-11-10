@@ -10,6 +10,9 @@ if (isset($_GET['act']) && ($_GET['act'] != '')){
         case "dangky" :
             require 'view/user/dangky.php';
             break;
+        case "cart" :
+            require 'view/user/cart.php';
+            break;
     }
 } else{
     require 'view/user/home.php';
