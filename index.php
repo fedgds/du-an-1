@@ -13,6 +13,7 @@ if (isset($_GET['act']) && ($_GET['act'] != '')){
         case "cart" :
             require 'view/user/cart.php';
             break;
+            
     }
 } else{
     require 'view/user/home.php';
